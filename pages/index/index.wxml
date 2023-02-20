@@ -1,0 +1,46 @@
+<view class="part" wx:if="{{false}}">
+  <view class="main">
+    <view class="calculator">
+
+      <view id="screen">
+        <view class="equation">1+2</view>
+        <view class="output" name="result">3</view>
+      </view>
+
+      <view id="zero" class="button num input" value="0">0</view>
+      <view id="one" class="button num input" value="1">1</view>
+      <view id="two" class="button num input" value="2">2</view>
+      <view id="three" class="button num input" value="3">3</view>
+      <view id="four" class="button num input" value="4">4</view>
+      <view id="five" class="button num input" value="5">5</view>
+      <view id="six" class="button num input" value="6">6</view>
+      <view id="seven" class="button num input" value="7">7</view>
+      <view id="eight" class="button num input" value="8">8</view>
+      <view id="nine" class="button num input" value="9">9</view>
+      <view id="dot" class="button num input" value=".">.</view>
+
+      <view id="viewide" class="button operator input" value="/">/</view>
+      <view id="multiply" class="button operator input" value="*">*</view>
+      <view id="add" class="button operator input" value="+">+</view>
+      <view id="subtract" class="button operator input" value="-">-</view>
+
+      <view id="equal" class="button" value="=">=</view>
+      <view id="all-clear" class="button clear">AC</view>
+      <view id="del" class="button clear">DEL</view>
+    </view>
+  </view>
+</view>
+
+
+<view class="tabs">
+  <view class="item" wx:for="{{tabs}}">
+    111
+  </view>
+</view>
+
+
+<view class="tabs">
+  <view class="item" wx:for="{{tabs}}">
+    111
+  </view>
+</view>
